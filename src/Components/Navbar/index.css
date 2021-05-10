@@ -1,0 +1,183 @@
+.nav-primary {
+  background-color: #5e81f4 !important;
+}
+/* .nav-light li:hover>a,
+.nav-light li.active>a,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+	color:#fff;
+	background-color:#000;
+	} */
+
+.nav-dark {
+  background-color: #1c1d21 !important;
+}
+
+.nav-light {
+  background-color: #f5f5fa !important;
+}
+.nav-light li:hover > a,
+.nav-light li.active > a {
+  color: #5e81f4;
+  background-color: #c0c9e4;
+}
+
+.fa {
+  border-radius: 10px;
+  /* position: relative; */
+  display: table-cell;
+  width: 60px;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 5px;
+  /* padding-bottom: 5px;
+padding-top: 5px; */
+}
+
+.navbar {
+  background: #f5f5fa;
+  border-right: 1px solid #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 70px;
+}
+
+.nav-left {
+	left: 0;
+}
+.nav-right {
+	right:0;
+}
+
+.navbar li > a {
+  /* position:relative; */
+  margin: 6px;
+  border-radius: 8px;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #8181a5;
+  font-family: arial;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.navbar .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.navbar > ul.logout {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.no-touch .scrollable.hover {
+  overflow-y: hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+  overflow-y: auto;
+  overflow: visible;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Titillium WebLight"), local("TitilliumWeb-Light"),
+    url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff)
+      format("woff");
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+#logo_InnerStar {
+  fill: #d4af37;
+  stroke: #000;
+  animation: wiggle 5ms infinite;
+}
+
+@keyframes wiggle {
+  10%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(20px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-40px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(40px, 0, 0);
+  }
+}
+
+#logo_OuterStar {
+  fill: transparent;
+  stroke-width: 5;
+  stroke: #000;
+  stroke-dasharray: 13500;
+  stroke-dashoffset: 0;
+  animation: animate-logo 5s infinite alternate;
+}
+
+@keyframes animate-logo {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  60% {
+    stroke-dashoffset: 27000;
+    fill: #5e81f4;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+}
